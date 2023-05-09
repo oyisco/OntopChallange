@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost/ontop?autoReconnect=true
+    username: postgres
+    password: oyisco
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      use-new-id-generator-mappings: false
+
+cors:
+  allowedOrings: "*"
+
+server:
+  port: 9090
+
+
+
+

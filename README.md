@@ -2,7 +2,8 @@
 
 
 How to download the code
-Git clone https://github.com/oyisco/OntopChallange.git
+
+Uses Git clone https://github.com/oyisco/OntopChallange.git
 
 Software requirement to run the project
 

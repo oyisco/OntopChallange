@@ -3,7 +3,7 @@
 Software Requirement to run the project
 
 1. Install JAVA 11 
-2. Sping 2.5.0
+2. Spring 2.5.0
 3. Maven 3
 4. Install PostgresSQL 
 

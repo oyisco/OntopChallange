@@ -24,15 +24,17 @@ Alternatively you can use the Spring Boot Maven plugin like so.
 
 mvn spring-boot:run
 
-#API DOCUMENTATION :
+# API DOCUMENTATION :
 
 The Poject consist of two documentation depending on what you want
 
-POSTMAN COLLECTION API: to access this, just import the postman colletion.
-SWAGGER DOCUMENTATION : this is accessable by usng the following url  http://localhost:9090/swagger-ui.html#/
+# POSTMAN COLLECTION API: 
+to access this, just import the postman colletion.
+# SWAGGER DOCUMENTATION :
+this is accessable by usng the following url  http://localhost:9090/swagger-ui.html#/
 
 
-#SECURITY :
+# SECURITY :
 This project has a JWT security , which means you will need to login. Follow the steps below to login;
 1. Create an account using this URL (http://localhost:9090/v1/accounts/create) for user registration which will generate a defualt username and password but this will not be return as part of the account objects
 2. Login using this URL http://localhost:9090/v1/accounts/login with username = "idris", password "1234" and it will generate a Bearer token 

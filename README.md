@@ -8,11 +8,11 @@ Software Requirement to run the project
 4. Install PostgresSQL 
 
 How to import the project to your IDE
-1. Clone the code form git ropository using https://github.com/oyisco/OntopChallange.git
-2. Import the code inot the IDE 
-3. Meven Clean 
+1. Clone the code from git repository using https://github.com/oyisco/OntopChallange.git
+2. Import the code into the IDE 
+3. Maven Clean 
 4. Maven Install
-5.Run the project from IDE.
+
 
 Running the application locally
 There are several ways to run a Spring Boot application on your local machine. One way is to execute the main method in the de.codecentric.springbootsample.Application class from your IDE.

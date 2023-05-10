@@ -15,24 +15,25 @@ How to import the project to your IDE
 
 
 Running the application locally
-There are several ways to run a Spring Boot application on your local machine. One way is to execute the main method in the de.codecentric.springbootsample.Application class from your IDE.
+There are several ways to run a Spring Boot application on your local machine. One way is to execute the main method in the com.ontop.challenge.Application class from your IDE.
 
-Alternatively you can use the Spring Boot Maven plugin like so
+Alternatively you can use the Spring Boot Maven plugin like so.
 
 mvn spring-boot:run
 
-API DOCUMENTATION 
+API DOCUMENTATION :
 
-The Poject consist of two documentation depending of what you want 
+The Poject consist of two documentation depending on what you want
 
-POSTMAN COLLECTION API: to access this is part of the email send and all you need to do is to import the collection
-SWAGGER DOCUMENTATION : this is accessable by usng the follwong url  http://localhost:9090/swagger-ui.html#/
+POSTMAN COLLECTION API: to access this, just import the postman colletion.
+SWAGGER DOCUMENTATION : this is accessable by usng the following url  http://localhost:9090/swagger-ui.html#/
 
 
-SECURITY 
-THis project has a JWT security which means you will need to login , but for the LOGIN to work u need to first do the following
-1. Create Account using this URL (http://localhost:9090/v1/accounts/create) 
-2. Login using  http://localhost:9090/v1/accounts/login with usernam = idris and password 1234 this will generate a Bearer token 
-3. then on POSTMAN collection click on Environment then locate Ontop Environment and paste the Bearer Token in the current value. 
-4.This token will expire after 5hr.
+SECURITY :
+This project has a JWT security , which means you will need to login. Follow the steps below to login;
+1. Create an account using this URL (http://localhost:9090/v1/accounts/create) 
+2. Login using this URL http://localhost:9090/v1/accounts/login with username = "idris", password "1234" and it will generate a Bearer token 
+3. On POSTMAN collection click on Environment locate the "current value" at the top right and paste the Token with Bearer 
+
+NOTE: This token will expire after 5hr.
 

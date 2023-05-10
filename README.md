@@ -17,7 +17,7 @@
 
 This is in application.yml inside resource folder , you can decide to change the database name, username and password of your jdbc connection
 
-# RUNNUNG THE APPLICATION LOCALLY
+# RUNNING THE APPLICATION LOCALLY
 There are several ways to run a Spring Boot application on your local machine. One way is to execute the main method in the com.ontop.challenge.Application class from your IDE.
 
 Alternatively you can use the Spring Boot Maven plugin like so.

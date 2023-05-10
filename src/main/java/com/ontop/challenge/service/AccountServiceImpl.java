@@ -27,11 +27,18 @@ public class AccountServiceImpl implements AccountService {
     @Override
     public Accounts createAccount(AccountCreationRequest request) {
         Accounts returnAccount = accountsRepository.save(accountMapper.toEntity(request));
-        Users users = new Users();
-        users.setAccounts(returnAccount);
-        users.setPassword(bcryptEncoder.encode("1234"));
-        users.setUsername("idris");
-        userRepository.save(users);
+        Optional<Users> users1 = this.userRepository.findByUsername("idris");
+        if (users1.isPresent()) {
+            //do nothing then return the account information
+            return returnAccount;
+        } else {
+
+            Users users = new Users();
+            users.setAccounts(returnAccount);
+            users.setPassword(bcryptEncoder.encode("1234"));
+            users.setUsername("idris");
+            userRepository.save(users);
+        }
         return returnAccount;
 
 

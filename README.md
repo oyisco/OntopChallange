@@ -1,18 +1,13 @@
 # Ontop’s Challenge for backend software engineer with Java
 
-
-How to download the code
-
-Uses Git clone https://github.com/oyisco/OntopChallange.git
-
 Software requirement to run the project
 
-JAVA 11 
-Sping 2.5.0
-PostgresSQL 
+1. Install JAVA 11 
+2. Sping 2.5.0
+3. Install PostgresSQL 
 
 How to run the project 
-1. Clone the code form git ropository
+1. Clone the code form git ropository using https://github.com/oyisco/OntopChallange.git
 2. Import the code inot the IDE 
 3. Meven Clean 
 4. Maven Install

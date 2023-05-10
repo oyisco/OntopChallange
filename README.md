@@ -31,7 +31,7 @@ SWAGGER DOCUMENTATION : this is accessable by usng the following url  http://loc
 
 SECURITY :
 This project has a JWT security , which means you will need to login. Follow the steps below to login;
-1. Create an account using this URL (http://localhost:9090/v1/accounts/create) 
+1. Create an account using this URL (http://localhost:9090/v1/accounts/create) for user registration which will generate a defualt username and password but this will not be return as part of the account objects
 2. Login using this URL http://localhost:9090/v1/accounts/login with username = "idris", password "1234" and it will generate a Bearer token 
 3. On POSTMAN collection click on Environment locate the "current value" at the top right and paste the Token with Bearer 
 

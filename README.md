@@ -13,6 +13,17 @@ How to import the project to your IDE
 3. Maven Clean 
 4. Maven Install
 
+DataSource connection: 
+
+this is application.yml as below and you can decide to change the database name, username and password.
+
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost/ontop?autoReconnect=true
+    username: postgres
+    password: oyisco
+
 
 Running the application locally
 There are several ways to run a Spring Boot application on your local machine. One way is to execute the main method in the com.ontop.challenge.Application class from your IDE.

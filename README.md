@@ -15,7 +15,7 @@ How to import the project to your IDE
 
 DataSource connection: 
 
-this is application.yml as below and you can decide to change the database name, username and password.
+this is in application.yml as below, you can decide to change the database name, username and password.
 
 spring:
   datasource:
